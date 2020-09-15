@@ -4,7 +4,7 @@ export declare class RavepaymentComponent implements OnInit {
     style: object;
     className: string;
     callback: EventEmitter<object>;
-    close: EventEmitter<{}>;
+    close: EventEmitter<any>;
     key: string;
     email: string;
     amount: number;
