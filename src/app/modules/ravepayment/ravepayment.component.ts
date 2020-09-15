@@ -25,7 +25,7 @@ interface MyWindow extends Window {
 declare let window: MyWindow
 
 @Component({
-  selector: 'rave-pay-button',
+  selector: 'app-rave-pay-button',
   templateUrl: './ravepayment.component.html',
   styleUrls: ['./ravepayment.component.css']
 })
